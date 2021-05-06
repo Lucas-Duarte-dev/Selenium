@@ -11,5 +11,6 @@ import { Builder, By, Key, until } from 'selenium-webdriver';
     await driver.findElement(By.name('q')).sendKeys('TORANJA', Key.RETURN);
     await driver.wait(until.titleIs('TORANJA - Google Search'), 1000);
   } finally {
+    await driver.quit()
   }
 })()
