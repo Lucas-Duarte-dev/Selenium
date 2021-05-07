@@ -13,9 +13,13 @@ import { Driver } from 'selenium-webdriver/chrome';
     const classGraduation = await driver.findElement(By.id('cardapio-mosaico0'))
     const getRoute = await classGraduation.getAttribute('href');
     await driver.get(getRoute)
-    const getADS = await driver.findElements(By.className('vitrine-graduacao-cards'))
-    console.log(getADS)
+    const getADS = await driver.findElements(By.className('curso-card-btn'))
+    const searchCourse =  getADS.map(element => element)
+    const getRouteADS = await searchCourse[6].getAttribute('href');
+    await driver.get(getRouteADS)
 
+    const getText = await driver.findElement(By.className('scconteudo-texto-principal geral-conteudolista short-mobile'))
+    console.log(await getText.getText())
 
   } finally {
 
