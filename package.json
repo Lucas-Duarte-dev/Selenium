@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "author": {
+    "name": "Lucas Duarte",
+    "email": "lucasduarte0951@gmail.com"
+  },
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/script.ts"
   },
