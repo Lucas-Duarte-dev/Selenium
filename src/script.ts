@@ -1,8 +1,8 @@
 import { Builder, By, Key, until } from 'selenium-webdriver';
 
-import os from 'os'
+import { platform } from 'os';
 
-const driver = new Builder().forBrowser(os.platform() === 'linux' ? 'chrome' : 'firefox').build();
+const driver = new Builder().forBrowser(platform() === 'linux' ? 'chrome' : 'firefox').build();
 
 const getUrl = (url: string): Promise<void> => {
   return driver.get(`${url}`)
