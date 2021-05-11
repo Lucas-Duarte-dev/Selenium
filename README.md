@@ -1,8 +1,26 @@
-# Selenium
+# **Selenium**
 
-## Instalação
+# **Indice**
+- [Funcionalidade](##-funcionalindade)
+- [Principais Objetivos](##-principais-objetivos)
+- **Instalação**
+   - [Ubunto](###-ubunto)
+   - [Windows](###-windows)
 
-### Ubunto
+## **Funcionalidade**
+
+O Selenium permite que o desenvolvedor possa simular as atividades que os usuários irão fazer no produto final, como por exemplo: inserir texto em campos, selecionar lista de opções, check-boxes, controle de movimento do mouse, execução de JavaScript dentre outras diversas funcionalidades relacionadas a funções que normalmente são executadas manualmente.
+
+----
+## **Principais objetivos**
+- **Encontrar erros:** Eliminar a maior quantidade de erros antes de colocar o código em produção;
+- **Acelerar testes:** Como os testes são automatizados, a etapa de testes será menor;
+- **Aumentar a taxa de entrega:** Acelerar as entregas e a liberação para produção;
+
+----
+## **Instalação**
+
+### **Ubunto**
  - <strong>Chrome:</strong>
 
     Baixando o Chrome:
@@ -47,7 +65,7 @@
     ```powershell
     chromedriver --version
     ```
-### Windows
+### **Windows**
 - <strong>Firefox:</strong>
 Baixando o chocolatey:
 > **Site para download: [Chocolatey](https://chocolatey.org/install)**

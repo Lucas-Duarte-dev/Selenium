@@ -31,6 +31,6 @@ const getUrl = (url: string): Promise<void> => {
     return text;
 
   } finally {
-    await driver.quit()
+    driver.quit()
   }
 })()
