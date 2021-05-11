@@ -21,7 +21,7 @@ O Selenium permite que o desenvolvedor possa simular as atividades que os usuár
 ## **Instalação**
 
 ### **Ubunto**
- - <strong>Chrome:</strong>
+ - **Chrome:**
 
     Baixando o Chrome:
     ```powershell
@@ -35,7 +35,7 @@ O Selenium permite que o desenvolvedor possa simular as atividades que os usuár
     ```powershell
     google-chrome --version
     ```
- - <strong>Chrome Driver:</strong>
+ - **Chrome Driver:**
 
     Baixando o chromedriver:
     ```powershell
@@ -66,7 +66,8 @@ O Selenium permite que o desenvolvedor possa simular as atividades que os usuár
     chromedriver --version
     ```
 ### **Windows**
-- <strong>Firefox:</strong>
+- **Firefox:**
+
 Baixando o chocolatey:
 > **Site para download: [Chocolatey](https://chocolatey.org/install)**
 
