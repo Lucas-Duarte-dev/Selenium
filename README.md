@@ -1,6 +1,6 @@
 # **Selenium**
 
-# **Indice**
+## **Indice**
 - [Funcionalidade](##-funcionalindade)
 - [Principais Objetivos](##-principais-objetivos)
 - **Instalação**
