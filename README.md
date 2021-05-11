@@ -1,7 +1,7 @@
 # **Selenium**
 
 ## **Indice**
-- [Funcionalidade](##-funcionalindade)
+- [Funcionalidade](##-funcionalidade)
 - [Principais Objetivos](##-principais-objetivos)
 - **Instalação**
    - [Ubunto](###-ubunto)
