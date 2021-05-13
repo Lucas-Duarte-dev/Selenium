@@ -75,8 +75,7 @@ Rode o comando no modo administrador do powershell:
 ``` powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ```
-Caso tenha atualize o chocolatey: `choco upgrade chocolatey
-`
+Caso já tenha o chocolatey, atualize com esse comando: `choco upgrade chocolatey`
 
 Vamos instalar o firefox, selenium e os drivers de navegador:
 ```
