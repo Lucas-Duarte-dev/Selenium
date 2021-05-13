@@ -3,6 +3,7 @@
 ## **Indice**
 - [Funcionalidade](##-funcionalidade)
 - [Principais Objetivos](##-principais-objetivos)
+   - [Iniciando o projeto](##-iniciando-o-projeto)
 - **Instalação**
    - [Ubunto](###-ubunto)
    - [Windows](###-windows)
@@ -18,6 +19,16 @@ O Selenium permite que o desenvolvedor possa simular as atividades que os usuár
 - **Aumentar a taxa de entrega:** Acelerar as entregas e a liberação para produção;
 
 ----
+
+## **Iniciando o Projeto**
+ Rode `yarn install` or `npm install` para baixar as dependências.
+ ### Dependências
+ - [Ts-node-dev](https://www.npmjs.com/package/ts-node-dev),
+ - [Typescript](https://www.typescriptlang.org/docs/) crie o arquivo **tsconfig.json**, rode o comando `yarn tsc --init`,
+ - [Selenium Web Driver](https://www.npmjs.com/package/selenium-webdriver),
+
+ ____
+
 ## **Instalação**
 
 ### **Ubunto**
