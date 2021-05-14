@@ -5,4 +5,4 @@ covid()
 
 setTimeout(() => {
   accessUniqsul()
-}, 5000);
+}, 7000);

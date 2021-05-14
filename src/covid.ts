@@ -18,15 +18,18 @@ const covid = async () => {
     }
     let dividerText = texts.map(element => element.replace(/(\r\n|\n|\r)/gm, ' '))
     let values = dividerText.map(element => element.replace(/[a-z|A-Z]/g, "").trim().split(' ')[1])
+
+    let convertValue = values.map(element => element.replace(/,/g, ''))
+
     let sp = {
-      total_de_casos: values[0],
-      recuperados: values[1],
-      mortos: values[2],
+      total_de_casos: Number(convertValue[0]),
+      recuperados: Number(convertValue[1]),
+      mortos: Number(convertValue[2]),
     }
     let br = {
-      total_de_casos: values[3],
-      recuperados: values[4],
-      mortos: values[5],
+      total_de_casos: Number(convertValue[3]),
+      recuperados: Number(convertValue[4]),
+      mortos: Number(convertValue[5]),
     }
     console.log({ sp, br })
   }
