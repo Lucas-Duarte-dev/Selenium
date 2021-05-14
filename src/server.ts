@@ -1,7 +1,8 @@
-import express from 'express';
+import accessUniqsul from './ads';
+import covid from './covid';
 
-const app = express();
+covid()
 
-app.use(express.json());
-
-app.listen(3333);
+setTimeout(() => {
+  accessUniqsul()
+}, 5000);

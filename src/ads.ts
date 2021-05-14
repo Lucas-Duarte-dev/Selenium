@@ -2,10 +2,10 @@ import { Builder, By, Key, until } from 'selenium-webdriver';
 import { platform } from 'os';
 import getUrl from './utils/getUrl';
 
-const driver = new Builder().forBrowser(platform() === 'linux' ? 'chrome' : 'firefox').build();
 
-(async function accessUniqsul(): Promise<string> {
+const accessUniqsul = async () => {
 
+  const driver = new Builder().forBrowser(platform() === 'linux' ? 'chrome' : 'firefox').build()
   try {
     getUrl(driver, 'http://google.com/ncr');
     await driver.findElement(By.name('q')).sendKeys('Cruzeiro do Sul', Key.RETURN);
@@ -24,9 +24,9 @@ const driver = new Builder().forBrowser(platform() === 'linux' ? 'chrome' : 'fir
 
     const text = await driver.findElement(By.className('scconteudo-texto-principal geral-conteudolista short-mobile')).getText();
     console.log(text)
-    return text;
-
   } finally {
     driver.quit()
   }
-})()
+}
+
+export default accessUniqsul
