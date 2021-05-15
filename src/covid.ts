@@ -26,14 +26,14 @@ const covid = async () => {
     const recovery_percentage_BR = percents(Number(valuesForCalculated[3]), Number(valuesForCalculated[4]));
     const recovery_percentage_SP = percents(Number(valuesForCalculated[0]), Number(valuesForCalculated[1]));
 
-    let sp = {
+    const sp = {
       total_de_casos: values[0],
       recuperados: values[1],
       mortos: values[2],
       porcentagem_recuperados_SP: recovery_percentage_SP
     }
 
-    let br = {
+    const br = {
       total_de_casos: values[3],
       recuperados: values[4],
       mortos: values[5],
